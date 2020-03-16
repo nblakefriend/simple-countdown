@@ -9,7 +9,7 @@ module.exports = {
         }
     },
     output: {
-        path: __dirname,
+        path: __dirname + "/public",
         filename: 'countdown.bundle.js'
     },
     module: {
