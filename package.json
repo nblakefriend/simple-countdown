@@ -1,0 +1,25 @@
+{
+  "name": "countdown_web_app",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "author": "Nathan Friend <nblakefriend@gmail.com>",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "vue-loader": "^15.9.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

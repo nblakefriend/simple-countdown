@@ -1,0 +1,106 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.4em;
+    background: #f5f5f5;
+    color: #4d4d4d;
+    min-width: 230px;
+    max-width: 100%;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 300;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 50px;
+    font-weight: 100;
+    text-align: left;
+    color: rgba(0,0,0,0.35);
+
+}
+
+.countdownapp {
+    background: #fff;
+    margin: 20px 0 20px 0;
+    padding: 4px;
+    position: relative;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.countdown {
+    width: 60%;
+    margin: 100px 20%;
+    position: relative;
+}
+
+.interval {
+    display: inline-block;
+    text-align: center;
+    margin: 0 15px;
+}
+.interval .number {
+    width: 100%;
+    font-size: 100px;
+    font-weight: 100;
+    color: rgba(175, 47, 47, 0.35);
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+}
+
+.interval .format {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.20);
+
+}
+
+@media (max-width:  1200px) {
+    .interval .number {
+        font-size: 75px;
+    }
+
+    .countdown {
+        width: 75%;
+        margin: 50px 12.5%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 425px) {
+    .interval {
+        margin: 7px;
+    }
+
+    .interval .number {
+        font-size: 35px;
+    }
+
+    .interval .format {
+        font-size: 15px;
+    }
+
+    .countdown {
+        width: 100%;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin: 30px;
+    }
+}
