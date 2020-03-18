@@ -2,7 +2,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
     entry: './src/index.js',
-    mode: 'development',
+    mode: 'production',
     resolve: {
         alias: {
             'vue$': 'vue/dist/vue.esm.js'
@@ -10,7 +10,7 @@ module.exports = {
     },
     output: {
         path: __dirname + "/public",
-        filename: 'countdown.bundle.js'
+        filename: 'countdown.bundle.min.js'
     },
     module: {
         rules: [
